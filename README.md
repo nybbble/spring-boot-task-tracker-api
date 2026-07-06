@@ -99,9 +99,11 @@ Current endpoints:
 ```json
 {
   "id": 1,
-  "title": "Finish backend project",
-  "description": "Complete the first version of the task tracker API",
-  "completed": false
+  "title": "Study Spring Boot",
+  "description": "Practice REST API structure",
+  "status": "TODO",
+  "createdAt": "2026-07-07T14:30:00",
+  "updatedAt": "2026-07-07T14:30:00"
 }
 ```
 
