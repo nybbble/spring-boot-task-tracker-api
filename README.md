@@ -128,20 +128,3 @@ While building this project, I focused on:
 * Structuring a small backend project
 * Understanding how entities are saved and retrieved
 * Planning future improvements for a more realistic backend API
-
-## Next Steps
-
-The next updates I want to make are:
-
-1. Move the files into a standard Maven/Spring Boot folder structure
-2. Add a proper `pom.xml`
-3. Add request DTOs instead of using the entity directly in the controller
-4. Add validation with `@Valid`
-5. Add custom error responses
-6. Add update and complete-task endpoints
-7. Add tests for the service and controller layers
-8. Add database configuration and Docker Compose
-
-## Notes
-
-This is a learning project, so the first version is intentionally small. The goal is to improve it gradually and keep the changes clear through separate commits.
