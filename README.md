@@ -1,33 +1,39 @@
 # TaskManagementSystem
 
 ### Repo:
-```
+
 
 task-management-system/
-│── src/
-│   └── main/
-│       └── java/com/example/taskmanagement/
-│           ├── controller/
-│           │   └── TaskController.java
-│           ├── model/
-│           │   └── Task.java
-│           ├── repository/
-│           │   └── TaskRepository.java
-│           ├── service/
-│           │   └── TaskService.java
-│           └── TaskManagementApplication.java
+├── pom.xml
+├── README.md
+├── docker-compose.yml
+├── .gitignore
+├── src/
+│   ├── main/
+│   │   ├── java/com/nybbble/taskmanagement/
+│   │   │   ├── TaskManagementApplication.java
+│   │   │   ├── controller/
+│   │   │   │   └── TaskController.java
+│   │   │   ├── service/
+│   │   │   │   └── TaskService.java
+│   │   │   ├── repository/
+│   │   │   │   └── TaskRepository.java
+│   │   │   ├── model/
+│   │   │   │   ├── Task.java
+│   │   │   │   └── TaskStatus.java
+│   │   │   ├── dto/
+│   │   │   │   ├── TaskCreateRequest.java
+│   │   │   │   ├── TaskUpdateRequest.java
+│   │   │   │   └── TaskResponse.java
+│   │   │   └── exception/
+│   │   │       ├── TaskNotFoundException.java
+│   │   │       └── GlobalExceptionHandler.java
+│   │   └── resources/
+│   │       └── application.yml
 │   └── test/
-│       └── java/com/example/taskmanagement/
+│       └── java/com/nybbble/taskmanagement/
+│           ├── TaskServiceTest.java
 │           └── TaskControllerTest.java
-│
-│── resources/
-│   └── application.yml
-│
-│── .gitignore
-│── Dockerfile
-│── pom.xml
-│── README.md
- ```
 
 A simple **RESTful API** built with **Java Spring Boot + PostgreSQL** for managing tasks.
 
