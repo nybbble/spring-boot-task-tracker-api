@@ -111,16 +111,10 @@ Current endpoints:
 
 Create a new task:
 
-```http
-POST /api/tasks
-Content-Type: application/json
 ```
-
-```json
 {
   "title": "Study Spring Boot",
-  "description": "Practice REST API structure with controller, service and repository layers",
-  "completed": false
+  "description": "Practice REST API structure with controller, service and repository layers"
 }
 ```
 
