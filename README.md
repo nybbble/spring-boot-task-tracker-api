@@ -84,21 +84,15 @@ src/
 
 Current endpoints:
 
-| Method   | Endpoint          | Description         |
-| -------- | ----------------- | ------------------- |
-| `GET`    | `/api/tasks`      | Get all tasks       |
-| `POST`   | `/api/tasks`      | Create a new task   |
-| `DELETE` | `/api/tasks/{id}` | Delete a task by ID |
-
-Planned endpoints:
-
-| Method  | Endpoint                   | Description              |
-| ------- | -------------------------- | ------------------------ |
-| `GET`   | `/api/tasks/{id}`          | Get a task by ID         |
-| `PUT`   | `/api/tasks/{id}`          | Update a task            |
+| Method | Endpoint | Description |
+|---|---|---|
+| `GET` | `/api/tasks` | Get all tasks |
+| `GET` | `/api/tasks/{id}` | Get a task by ID |
+| `POST` | `/api/tasks` | Create a new task |
+| `PUT` | `/api/tasks/{id}` | Update a task |
 | `PATCH` | `/api/tasks/{id}/complete` | Mark a task as completed |
-| `GET`   | `/api/tasks?status=TODO`   | Filter tasks by status   |
-| `GET`   | `/api/tasks?priority=HIGH` | Filter tasks by priority |
+| `DELETE` | `/api/tasks/{id}` | Delete a task by ID |
+| `GET` | `/api/tasks?status=TODO` | Filter tasks by status |
 
 ## Example Task Object
 
